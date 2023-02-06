@@ -18,6 +18,17 @@
 // });
 // console.log(endsWithM);
 
+//* method3
+// let arr = prompt("enter words with spaces").toLowerCase().split(" ");
+// function endsWithM() {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i].at(-1) == "m") {
+//       console.log(arr[i]);
+//     }
+//   }
+// }
+// endsWithM();
+
 //! Arrayda sozde butun herfleri boyuk olub olmadigina baxin
 // let a = prompt("enter words with space").split(" ");
 // function checkUppercase() {
@@ -66,12 +77,12 @@
 // showTillZero();
 
 //! Arrayin icindeki ededlerin cemi cutdurse --true, tekdirse --false ekrana gostersin
-let a = prompt("enter numbers with space").split(" ");
-let sum = 0;
-function isSumEven() {
-  for (let i = 0; i < a.length; i++) {
-    sum += a[i];
-  }
-  sum % 2 == 0 ? console.log(true) : console.log(false);
-}
-isSumEven();
+// let a = prompt("enter numbers with space").split(" ");
+// let sum = 0;
+// function isSumEven() {
+//   for (let i = 0; i < a.length; i++) {
+//     sum += a[i];
+//   }
+//   sum % 2 == 0 ? console.log(true) : console.log(false);
+// }
+// isSumEven();
