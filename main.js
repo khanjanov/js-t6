@@ -41,11 +41,7 @@
 // checkUppercase();
 
 //! Array icerisinde 0-9 kimi reqemler var, hansisa 1 reqem yoxdur onu tapin
-// let a = prompt("enter numbers 0-9, except one of them")
-//   .split(" ")
-//   .sort(function (a, b) {
-//     return a - b;
-//   });
+// let a = prompt("enter numbers 0-9, except one of them").split(" ").sort(function (a, b) {return a - b});
 // function findAbsent() {
 //   for (let i = 0; i < a.length; i++) {
 //     if (a[i] != i) {
